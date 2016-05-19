@@ -1,0 +1,63 @@
+#navarea {
+    background-color:white;
+    margin-bottom:0px;
+}
+#nav-logo {
+    /* 100 x 100 px logo */
+    height:100%;
+}
+
+.emphasis {
+    padding:3px 6px !important;
+    margin: 12px 9px;
+    background-color:red;
+    color:white !important;
+}
+.emphasis:hover {
+    background-color:darkred !important;
+}
+
+#topmenu {
+    text-transform: uppercase;
+    position:absolute;
+    right:0;
+    
+    font-size: .8em;
+}
+#mainmenu {
+    position:absolute;
+    right:0;
+    bottom:0;
+    font-size: 22px;
+}
+.hidden {
+    display:none;
+}
+
+.footer {
+    margin-top:60px;
+    padding: 50px 0 30px;
+    background-color:#eeeeee;
+}
+@media (max-width: 768px) {
+    #mainmenu {
+        position:inherit;
+        text-align:left;
+    }
+    .footer {
+        margin-top:20px;
+        padding: 20px 0 10px;
+        background-color:#eeeeee;
+        font-size:.8em;
+    }
+}
+
+/* Coolors Exported Palette - coolors.co/015581-99a708-5c9ead-ffffff-eeeeee 
+
+$color1: #015581; //rgba(1, 85, 129, 100) team child blue
+$color2: #99a708; //rgba(153, 167, 8, 100) team child green
+$color3: #5c9ead; //rgba(92, 158, 173, 100) team child light blue
+$color4: #ffffff; //rgba(255, 255, 255, 100) white
+$color5: #eeeeee; //rgba(238, 238, 238, 100) gray
+
+*/

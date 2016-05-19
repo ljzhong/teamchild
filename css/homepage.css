@@ -1,0 +1,151 @@
+#hero {
+    /* fixed height on full screen  */
+    background: url(../assets/hero.JPG) no-repeat center top local; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 450px;
+    
+    position:relative;
+}
+#hero h1 {
+    padding-left:5%;
+    margin:0;
+    
+    padding-top:10%;
+    color: white;
+}
+#hero h2 {
+    padding-left:5%;
+    margin:0;
+}
+#hero button {
+    position:absolute;
+    right:0;
+    bottom:0;
+    
+    font-size:18pt;
+    padding: 35px 60px;
+    margin: 0 100px 50px;
+}
+
+/* mobile-optimizing the hero */
+@media (max-width: 768px) {
+    #hero {
+        height: 220px;
+    }
+    #hero h1 {
+        text-align: center;
+        padding-left:0;
+        margin:0;
+        
+        padding-top:5%;
+    }
+    #hero h2 {
+        text-align: center;
+        font-size:1.6em;
+        
+        padding-left:0;
+        margin:0;
+    }
+    #hero button {
+        position:initial;
+        display:block;
+        
+        font-size:1.4em;
+        padding: 20px 45px;
+        margin: 10px auto 20px;
+    }
+}
+
+
+
+.block{padding:0;}
+.block-top {
+    height: 150px;
+}
+.block-bottom {
+    text-align: center;
+    color: white;
+    
+    height:150px;
+    padding-top:15px;
+}
+.block-bottom h2 {
+    font-size:22px;
+}
+
+.left-block-top {
+    background: url(../assets/left.JPG) no-repeat center top local; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.left-block-bottom {
+    background-color: #5c9ead;
+}
+.middle-block-top {
+    background: url(../assets/middle.JPG) no-repeat center top local; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.middle-block-bottom {
+    background-color: #99a708;
+}
+.right-block-top {
+    background: url(../assets/right.JPG) no-repeat center top local; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.right-block-bottom {
+    background-color: #015581;
+}
+.full-block {
+    margin-top:50px;
+    text-align: center;
+    
+    font-size: 14pt;
+    color: #3f3f3f;
+}
+#mission {
+    color:#015581;
+    font-size: 24pt;
+    padding-bottom:15px;
+}
+/* mobile-optimizing the mission statement and donate button */
+@media (max-width: 768px) {
+    .full-block {
+        margin-top:20px;
+        text-align: center;
+        
+        font-size: 14pt;
+        color: #3f3f3f;
+    }
+    #mission {
+        color:#015581;
+        font-size: 18pt;
+        padding-bottom:15px;
+    }
+}
+
+#donate button {
+    padding: 20px 95px;
+    font-size:18px;
+}
+
+
+/* Coolors Exported Palette - coolors.co/015581-99a708-5c9ead-ffffff-eeeeee 
+
+$color1: #015581; //rgba(1, 85, 129, 100) team child blue
+$color2: #99a708; //rgba(153, 167, 8, 100) team child green
+$color3: #5c9ead; //rgba(92, 158, 173, 100) team child light blue
+$color4: #ffffff; //rgba(255, 255, 255, 100) white
+$color5: #eeeeee; //rgba(238, 238, 238, 100) gray
+
+*/
